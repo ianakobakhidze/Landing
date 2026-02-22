@@ -4,17 +4,36 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-<body>
-    <header class="header container">
-        <div class="logo">
-<a href="file:///C:/Users/595-424-424%20Temo/Desktop/bon%202/index.html">
-    <img src="images/99562667501bf13463fd3c15f53f3ff44f92654b.jpg">
-</a>
-</div>
-<div class="navigation">
-<a href="#">Our Hotel</a>
-<a href="#">Rooms & Rates</a>
-<a href="#">Facilities</a>
-<a href="#">Contact Us</a>
-</div>
-</header>
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.logo{
+    width: 190px;
+    height: 159px;
+}
+
+.navigation a{
+    font-family: ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #957554;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 49px;
+}
+
+.navigation{
+    display: flex;
+    gap: 30px;
+}
+
